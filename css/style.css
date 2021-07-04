@@ -5,8 +5,9 @@
         /* .........................................navbar............................................. */
         
         .clear {
-            margin: 0;
-            padding: 0;
+            /* margin: 0;
+            padding: 0; */
+            clear: both;
         }
         
         .navbar {
@@ -329,3 +330,22 @@
         .footer p span {
             color: #ff0048;
         }
+        /* ...........................................second page.......................................... */
+        
+        .contact_all {}
+        
+        .contact_all .tell {}
+        
+        .contact_all .tell h1 {}
+        
+        .contact_all .tell h4 {}
+        
+        .contact_all .tell h2 {}
+        
+        .contact_all .tell form {}
+        
+        .contact_all .tell form input {}
+        
+        .contact_all .tell form textarea {}
+        
+        .contact_all .tell form input[type=submit] {}
