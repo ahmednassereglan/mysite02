@@ -3,13 +3,114 @@ body {
     padding: 0;
 }
 
-.navbar {
-    width: 100%;
-    height: 60px;
-    background: #000;
-    position: fixed;
+
+/* .........................................navbar............................................. */
+
+.clear {
+    margin: 0;
+    padding: 0;
 }
 
-.navbar ul {}
+.navbar {
+    width: 100%;
+    height: 50px;
+    background: #360836;
+    /* position: fixed; */
+    margin: 0;
+}
 
-.navbar ul li {}
+.navbar ul {
+    list-style: none;
+    text-align: center;
+    margin: 0;
+}
+
+.navbar ul li {
+    display: inline-block;
+    margin-top: 15px;
+}
+
+.navbar ul li a {
+    color: #ff0048;
+    text-decoration: none;
+    padding: 10px;
+    margin-left: 15px;
+}
+
+.navbar ul li a.active {
+    color: rgb(230, 218, 231);
+}
+
+
+/* ............................................................................................ */
+
+.folk {
+    width: 100%;
+    height: 700px;
+    background-image: url("../images/cover.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.folk .web {
+    text-align: center;
+    color: #fff;
+    opacity: 0.8;
+}
+
+.folk .web h1 {
+    margin: 0;
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    padding-top: 150px;
+}
+
+.folk .web h1 span {
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: lowercase;
+}
+
+.folk .web h4 {
+    margin: 0;
+    margin-top: 5px;
+    font-size: 20px;
+    letter-spacing: 7px;
+    text-transform: capitalize;
+}
+
+.folk .web p {
+    text-transform: capitalize;
+    margin-top: 100px;
+    font-weight: bolder;
+}
+
+.folk .web .point {}
+
+.folk .work {
+    position: absolute;
+    bottom: 0;
+    left: 40%;
+    background: #ff0048;
+    color: #fff;
+    padding: 15px;
+    width: 180px;
+    font-size: 20px;
+    text-align: center;
+    padding-left: 70px;
+}
+
+.folk .work::after {
+    content: "";
+    border-top: 30px solid #ff0048;
+    border-right: 30px solid transparent;
+    border-left: 30px solid transparent;
+    border-bottom: 30px solid transparent;
+    position: relative;
+    top: 67px;
+    left: -80px;
+}
+
+
+/* .................................................................................... */
