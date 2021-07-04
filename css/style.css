@@ -1,122 +1,117 @@
-body {
-    margin: 0;
-    padding: 0;
-}
-
-
-/* .........................................navbar............................................. */
-
-.clear {
-    margin: 0;
-    padding: 0;
-}
-
-.navbar {
-    width: 100%;
-    height: 50px;
-    background: #360836;
-    /* position: fixed; */
-    margin: 0;
-}
-
-.navbar ul {
-    list-style: none;
-    text-align: center;
-    margin: 0;
-}
-
-.navbar ul li {
-    display: inline-block;
-    margin-top: 15px;
-}
-
-.navbar ul li a {
-    color: #ff0048;
-    text-decoration: none;
-    padding: 10px;
-    margin-left: 15px;
-}
-
-.navbar ul li a.active {
-    color: rgb(230, 218, 231);
-}
-
-
-/* ............................................................................................ */
-
-.folk {
-    width: 100%;
-    height: 700px;
-    background-image: url("../images/cover.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-}
-
-.folk .web {
-    text-align: center;
-    color: #fff;
-    opacity: 0.8;
-}
-
-.folk .web h1 {
-    margin: 0;
-    font-size: 50px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-transform: uppercase;
-    padding-top: 150px;
-}
-
-.folk .web h1 span {
-    font-family: 'Courier New', Courier, monospace;
-    text-transform: lowercase;
-}
-
-.folk .web h4 {
-    margin: 0;
-    margin-top: 5px;
-    font-size: 20px;
-    letter-spacing: 7px;
-    text-transform: capitalize;
-}
-
-.folk .web p {
-    text-transform: capitalize;
-    margin-top: 100px;
-    font-weight: bolder;
-}
-
-.folk .web .point {
-    margin-top: 100px;
-}
-
-.folk .web .point span {
-    border: 1px solid #fff;
-    border-radius: 50%;
-    background: #fff;
-    display: block;
-    width: 5px;
-    padding-bottom: 5px;
-    margin: auto;
-    margin-bottom: 30px;
-}
-
-.folk .work {
-    position: absolute;
-    bottom: 0;
-    left: 40%;
-    background: #ff0048;
-    color: #fff;
-    padding: 15px;
-    width: 210px;
-    font-size: 20px;
-    text-align: center;
-    padding-left: 30px;
-    padding-right: 20px;
-}
-
-
-/* .folk .work::after {
+        body {
+            margin: 0;
+            padding: 0;
+        }
+        /* .........................................navbar............................................. */
+        
+        .clear {
+            margin: 0;
+            padding: 0;
+        }
+        
+        .navbar {
+            width: 100%;
+            height: 50px;
+            background: #360836;
+            /* position: fixed; */
+            margin: 0;
+        }
+        
+        .navbar ul {
+            list-style: none;
+            text-align: center;
+            margin: 0;
+        }
+        
+        .navbar ul li {
+            display: inline-block;
+            margin-top: 15px;
+        }
+        
+        .navbar ul li a {
+            color: #ff0048;
+            text-decoration: none;
+            padding: 10px;
+            margin-left: 15px;
+        }
+        
+        .navbar ul li a.active {
+            color: rgb(230, 218, 231);
+        }
+        /* ............................................................................................ */
+        
+        .folk {
+            width: 100%;
+            height: 700px;
+            background-image: url("../images/cover.png");
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;
+        }
+        
+        .folk .web {
+            text-align: center;
+            color: #fff;
+            opacity: 0.8;
+        }
+        
+        .folk .web h1 {
+            margin: 0;
+            font-size: 50px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            text-transform: uppercase;
+            padding-top: 150px;
+        }
+        
+        .folk .web h1 span {
+            font-family: 'Courier New', Courier, monospace;
+            text-transform: lowercase;
+        }
+        
+        .folk .web h4 {
+            margin: 0;
+            margin-top: 5px;
+            font-size: 20px;
+            letter-spacing: 7px;
+            text-transform: capitalize;
+        }
+        
+        .folk .web p {
+            text-transform: capitalize;
+            margin-top: 100px;
+            font-weight: bolder;
+        }
+        
+        .folk .web .point {
+            margin-top: 100px;
+        }
+        
+        .folk .web .point span {
+            border: 1px solid #fff;
+            border-radius: 50%;
+            background: #fff;
+            display: block;
+            width: 5px;
+            padding-bottom: 5px;
+            margin: auto;
+            margin-bottom: 30px;
+        }
+        
+        .folk .work {
+            position: absolute;
+            bottom: 0;
+            left: 40%;
+            background: #ff0048;
+            color: #fff;
+            padding: 15px;
+            width: 210px;
+            font-size: 20px;
+            text-align: center;
+            padding-left: 30px;
+            padding-right: 20px;
+            margin: auto;
+        }
+        /* .folk .work::after {
     content: "";
     border-top: 30px solid #ff0048;
     border-right: 30px solid transparent;
@@ -126,35 +121,110 @@ body {
     top: 67px;
     left: -80px;
 } */
-
-
-/* .................................................................................... */
-
-.image {
-    width: 100%;
-}
-
-.image .imge {
-    width: 25%;
-    height: 250px;
-    float: left;
-    position: relative;
-}
-
-.image .imge img {
-    width: 100%;
-    height: 100%;
-}
-
-.image .imge .over {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.5);
-    top: 0;
-    opacity: 0;
-}
-
-.image .imge .over:hover {
-    opacity: 1;
-}
+        /* .................................................................................... */
+        
+        .image {
+            width: 100%;
+            height: 700px;
+        }
+        
+        .image .imge {
+            width: 25%;
+            height: 250px;
+            float: left;
+            position: relative;
+        }
+        
+        .image .imge img {
+            width: 100%;
+            height: 100%;
+        }
+        
+        .image .imge .over {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5);
+            top: 0;
+            opacity: 0;
+        }
+        
+        .image .imge .over:hover {
+            opacity: 1;
+        }
+        
+        .we {
+            margin: auto;
+            background: #ff0048;
+            color: #fff;
+            padding: 15px;
+            width: 97.5%;
+            font-size: 20px;
+            text-align: center;
+            padding: 15px auto;
+            margin-top: 50px;
+            position: absolute;
+        }
+        
+        .we::after {
+            position: relative;
+            content: "";
+            border-top: 30px solid #ff0048;
+            border-right: 30px solid transparent;
+            border-left: 30px solid transparent;
+            border-bottom: 30px solid transparent;
+            top: 68px;
+            left: -310px;
+        }
+        /* .................................................................................... */
+        
+        .cards {
+            width: 100%;
+            margin-top: 100px;
+        }
+        
+        .cards .card {
+            text-align: center;
+            color: #ff0048;
+            width: 60%;
+            margin: auto;
+        }
+        
+        .cards .card h2 {
+            padding-top: 120px;
+        }
+        
+        .cards .card .andreas {
+            width: 50%;
+            margin-top: 50px;
+            float: left;
+            margin-bottom: 50px;
+        }
+        
+        .cards .card .andreas img {
+            width: 100%;
+        }
+        
+        .cards .card .andreas h1 {
+            margin: 0;
+            margin-top: 3px;
+            letter-spacing: 3px;
+        }
+        
+        .cards .card .andreas p {
+            margin: 0;
+            padding-bottom: 5px;
+            color: #000;
+        }
+        
+        .cards .card button {
+            width: 200px;
+            height: 50px;
+            background: #000;
+            color: #fff;
+            padding: 10px;
+            text-transform: uppercase;
+            border: 0;
+            cursor: pointer;
+        }
+        /* ................................................................................... */
