@@ -226,5 +226,106 @@
             text-transform: uppercase;
             border: 0;
             cursor: pointer;
+            margin-bottom: 40px;
         }
         /* ................................................................................... */
+        
+        .about {
+            width: 100%;
+            height: 1000px;
+            margin-top: 50px;
+            background-image: url("../images/Cover_2.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            color: #fff;
+        }
+        
+        .about .what {
+            width: 80%;
+            margin: auto;
+            text-align: center;
+        }
+        
+        .about .what .how {
+            width: 40%;
+            float: left;
+            margin-left: 80px;
+            margin-top: 20px;
+        }
+        
+        .about .what .how h1 {
+            opacity: 0.8;
+        }
+        
+        .about .what .how p {
+            opacity: 0.8;
+        }
+        
+        .about .what .how .bullet {
+            text-align: center;
+            margin-top: 50px;
+            margin-bottom: 50px;
+        }
+        
+        .about .what .how .bullet span {
+            background: #fff;
+            border: 1px solid #fff;
+            border-radius: 50%;
+            padding-left: 5px;
+            font-size: 5px;
+            margin: 10px;
+            display: inline;
+        }
+        
+        .about .what button {
+            background: #fff;
+            border: 0;
+            padding: 8px;
+            width: 150px;
+            text-transform: uppercase;
+            border-radius: 2px;
+            cursor: pointer;
+        }
+        
+        .about .what button a {
+            text-decoration: none;
+            color: rgb(110, 107, 107);
+        }
+        
+        .about .what .bull {
+            text-align: center;
+            margin-top: 40px;
+            margin-bottom: 50px;
+        }
+        
+        .about .what .bull span {
+            background: #fff;
+            border: 2px solid #fff;
+            border-radius: 50%;
+            padding-left: 5px;
+            font-size: 5px;
+            margin: 8px;
+            display: inline;
+        }
+        
+        .about .what .bull span:first-child {
+            background: #ff0048;
+            border: 2px solid #ff0048;
+        }
+        /* ................................ */
+        
+        .footer {
+            width: 100%;
+            height: 50px;
+            background: rgb(190, 185, 185);
+        }
+        
+        .footer p {
+            margin: 0;
+            text-align: center;
+            padding: 15px;
+        }
+        
+        .footer p span {
+            color: #ff0048;
+        }
